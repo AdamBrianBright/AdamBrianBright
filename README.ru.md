@@ -1,20 +1,20 @@
-(En | [Ru](README.ru.md))
+([En](README.md) | Ru)
 
-# Hi 👋, I'm Adam
+# Привет 👋, Я Адам
 
-Real name is Bogdan _(He/him)_. I'm a full-stack web developer, primarily focused on backend.
+Реальное имя - Богдан. Я full-stack веб разработчик, в основном состредоточенный на бекенде.
 
-## About me
+## Обо мне
 
-- ⚙️ Currently working at [Cifrazia](https://cifrazia.com)
-- 🎸 Have an ukulele that I barely touch
-- 🛠️ Currently using [Go](https://go.dev/), [PostreSQL](https://postgresql.org), [SvelteKit](https://kit.svelte.dev), [TailwindCSS](https://tailwindcss.com) as my primary stack
-- 📆 Have been working as a programmer since 2013
-- 💀 Still trying my way into neovim world...
+- ⚙️ В данное время работаю в [Cifrazia](https://cifrazia.com)
+- 🎸 У меня есть укулеле, которую едва трогаю
+- 🛠️ Сейчас использую [Go](https://go.dev/), [PostreSQL](https://postgresql.org), [SvelteKit](https://kit.svelte.dev), [TailwindCSS](https://tailwindcss.com) как свой основной стэк
+- 📆 Работаю программистом с 2013
+- 💀 Всё ещё пытаюсь попасть в мир neovim...
 
-## Technologies
+## Технологии
 
-💡 Technologies and environment that I use or had an experience with, **SORTED BY** `familiarity` **DESC**.
+💡 Технологии и окружение, которые использую или с которыми есть опыт, **SORTED BY** `знакомство` **DESC**.
 
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
@@ -73,7 +73,7 @@ Real name is Bogdan _(He/him)_. I'm a full-stack web developer, primarily focuse
 ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
 ![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)
 
-🧐 Other things I've encountered on a surface level.
+🧐 Другие вещи, с которыми знаком поверхностно.
 
 ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white)
 ![Swagger](https://img.shields.io/badge/-Swagger-Clojure?style=for-the-badge&logo=swagger&logoColor=white)
@@ -91,7 +91,7 @@ Real name is Bogdan _(He/him)_. I'm a full-stack web developer, primarily focuse
 ![Electron](https://img.shields.io/badge/Electron-47848F.svg?style=for-the-badge&logo=Electron&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-000000.svg?style=for-the-badge&logo=OWASP&logoColor=white)
 
-🙃 Looking forward to learn about
+🙃 Хотелось бы узнать или выучить
 
 ![HTMX](https://img.shields.io/badge/HTMX-000000.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Neovim](https://img.shields.io/badge/neovim-57A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
@@ -100,7 +100,7 @@ Real name is Bogdan _(He/him)_. I'm a full-stack web developer, primarily focuse
 ![Leptos UI](https://img.shields.io/badge/Leptos_UI-EF3939.svg?style=for-the-badge&logo=Leptos&logoColor=white)
 ![Zig](https://img.shields.io/badge/Zig-F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white)
 
-😔 Long gone those days
+😔 Давно прошли те времена
 
 ![Axios](https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=Axios&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
@@ -118,9 +118,9 @@ Real name is Bogdan _(He/him)_. I'm a full-stack web developer, primarily focuse
 
 _[![shields.io](https://img.shields.io/badge/shields_io-000000.svg?logo=shields.io&logoColor=white)](https://shields.io)_
 
-## Contact me ☎️
+## Контакты ☎️
 
 - VK: [Богдан Парфенов](https://vk.com/adam_bright)
 - Telegram: [@adam_ne_adam](https://t.me/adam_ne_adam)
 - Discord: [Adam Bright](https://discordapp.com/users/241129119688032257/)
-- Email: [I prefer telegram](mailto:adam.brian.bright@gmail.com)
+- Email: [Предпочитаю телеграм](mailto:adam.brian.bright@gmail.com)
