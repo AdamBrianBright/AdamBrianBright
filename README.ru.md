@@ -73,7 +73,7 @@
 ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
 ![Lighthouse](https://img.shields.io/badge/Lighthouse-F44B21?style=for-the-badge&logo=lighthouse&logoColor=white)
 
-🧐 Другие вещи, с которыми знаком поверхностно.
+🧐 Другие вещи, с которыми знаком поверхностно
 
 ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white)
 ![Swagger](https://img.shields.io/badge/-Swagger-Clojure?style=for-the-badge&logo=swagger&logoColor=white)
@@ -91,7 +91,7 @@
 ![Electron](https://img.shields.io/badge/Electron-47848F.svg?style=for-the-badge&logo=Electron&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-000000.svg?style=for-the-badge&logo=OWASP&logoColor=white)
 
-🙃 Хотелось бы узнать или выучить
+🙃 Хотелось бы изучить
 
 ![HTMX](https://img.shields.io/badge/HTMX-000000.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Neovim](https://img.shields.io/badge/neovim-57A143.svg?style=for-the-badge&logo=neovim&logoColor=white)
