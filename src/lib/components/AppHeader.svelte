@@ -32,7 +32,9 @@
 
 <header
   class="sticky top-0 z-50 bg-zinc-200 text-zinc-900 dark:bg-zinc-950 dark:text-white print:hidden">
-  <nav class="relative flex h-12 justify-between px-2 sm:px-8" aria-label="Navigation">
+  <nav
+    class="relative flex h-12 justify-between whitespace-nowrap px-2 sm:px-8"
+    aria-label="Navigation">
     <div class="flex items-stretch sm:w-full">
       <a
         href="https://kit.svelte.dev"
@@ -47,27 +49,28 @@
           class="aspect-square w-6 object-contain object-center" />
       </a>
     </div>
-    <div class="flex h-full w-full items-stretch justify-center">
+    <div
+      class="flex h-full w-full items-stretch justify-center text-xs font-semibold leading-6 sm:text-sm">
       <a
         href={$localePath('/')}
-        class="flex items-center bg-transparent px-4 text-sm font-semibold leading-6 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800">
+        class="flex items-center bg-transparent px-2 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800 sm:px-4">
         {_.about}
       </a>
       <a
         href={$localePath('/job-history')}
-        class="flex items-center bg-transparent px-4 text-sm font-semibold leading-6 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800">
+        class="flex items-center bg-transparent px-2 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800 sm:px-4">
         {_.jobs}
       </a>
       <a
         href="https://github.com/AdamBrianBright"
-        class="flex items-center bg-transparent px-4 text-sm font-semibold leading-6 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800">
+        class="flex items-center bg-transparent px-2 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800 sm:px-4">
         {_.github}
       </a>
     </div>
-    <div class="flex items-stretch justify-end sm:w-full">
+    <div class="flex items-stretch justify-end text-sm font-semibold leading-6 sm:w-full">
       <a
         href={langPath}
-        class="flex items-center bg-transparent px-4 text-sm font-semibold leading-6 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800">
+        class="flex items-center bg-transparent px-2 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800 sm:px-4">
         {#if invertLang == 'ru'}
           <Ru />
         {:else if invertLang == 'en'}
@@ -75,7 +78,7 @@
         {/if}
       </a>
       <button
-        class="flex items-center bg-transparent px-4 text-sm font-semibold leading-6 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800"
+        class="flex items-center bg-transparent px-2 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800 sm:px-4"
         on:click={printPage}>
         <Print />
       </button>
