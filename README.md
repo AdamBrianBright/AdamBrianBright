@@ -114,7 +114,7 @@ Real name is Bogdan _(He/him)_. I'm a full-stack web developer, primarily focuse
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Apache](https://img.shields.io/badge/apache-D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
 ![FileZilla](https://img.shields.io/badge/FileZilla-BF0000.svg?style=for-the-badge&logo=FileZilla&logoColor=white)
-![GameMaker](https://img.shields.io/badge/GameMaker-BF0000.svg?style=for-the-badge&logo=GameMaker&logoColor=white)
+![GameMaker](https://img.shields.io/badge/GameMaker-000000.svg?style=for-the-badge&logo=GameMaker&logoColor=white)
 
 _[![shields.io](https://img.shields.io/badge/shields_io-000000.svg?logo=shields.io&logoColor=white)](https://shields.io)_
 

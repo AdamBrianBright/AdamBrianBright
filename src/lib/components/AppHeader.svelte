@@ -32,8 +32,8 @@
 
 <header
   class="sticky top-0 z-50 bg-zinc-200 text-zinc-900 dark:bg-zinc-950 dark:text-white print:hidden">
-  <nav class="relative flex h-12 justify-between px-8" aria-label="Navigation">
-    <div class="flex w-full items-stretch">
+  <nav class="relative flex h-12 justify-between px-2 sm:px-8" aria-label="Navigation">
+    <div class="flex items-stretch sm:w-full">
       <a
         href="https://kit.svelte.dev"
         target="_blank"
@@ -64,7 +64,7 @@
         {_.github}
       </a>
     </div>
-    <div class="flex w-full items-stretch justify-end">
+    <div class="flex items-stretch justify-end sm:w-full">
       <a
         href={langPath}
         class="flex items-center bg-transparent px-4 text-sm font-semibold leading-6 transition hocus:bg-zinc-300 dark:hocus:bg-zinc-800">

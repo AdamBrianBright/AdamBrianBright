@@ -373,7 +373,7 @@ export const techs = new Map([
         },
         {
           name: 'GameMaker',
-          img: 'https://img.shields.io/badge/GameMaker-BF0000.svg?style=for-the-badge&logo=GameMaker&logoColor=white',
+          img: 'https://img.shields.io/badge/GameMaker-000000.svg?style=for-the-badge&logo=GameMaker&logoColor=white',
         },
       ],
     ],

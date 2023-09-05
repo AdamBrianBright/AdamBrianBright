@@ -3,13 +3,20 @@
   import { locale } from '$lib/stores/locale';
   import ArrowRight from '~icons/mdi/arrow-right';
 
+  const today = new Date();
+  const bd = new Date('1999-03-05');
+  let age = today.getFullYear() - bd.getFullYear();
+  let m = today.getMonth() - bd.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < bd.getDate())) {
+    age--;
+  }
+
   $: _ = {
     ru: {
       title: 'История работы',
       info: {
-        title: 'Привет<span class="print:hidden"> 👋</span>, Я Адам',
-        subtitle:
-          'Реальное имя - Богдан<span class="hidden print:inline"> Парфенов</span>. Я full-stack веб разработчик, в основном состредоточенный на бекенде.',
+        title: 'Привет, Я Адам!',
+        subtitle: `Реальное имя - Богдан Парфенов (${age}). Я full-stack веб разработчик, в основном состредоточенный на бекенде.`,
       },
       jobs: [
         {
@@ -40,6 +47,7 @@
             'Tornado',
             'MongoDB',
             'AWS S3',
+            'AWS Cognito',
             'AWS Gateway',
             'Docker',
             'Vue',
@@ -52,7 +60,16 @@
           title:
             'Python разработчик в <a href="https://4taps.me" rel="noopener noreferrer" class="text-blue-500 print:text-black">4taps</a>',
           desc: 'Разрабатывал и поддерживал веб-сервисы партнёров на Python',
-          skills: ['Python3.6', 'Django2', 'Django REST', 'MongoDB', 'PostgreSQL', 'Celery', 'Vue'],
+          skills: [
+            'Python3.6',
+            'Django2',
+            'Django REST',
+            'MongoDB',
+            'Firebase',
+            'PostgreSQL',
+            'Celery',
+            'Vue',
+          ],
         },
         {
           date: '2018-2019, Санкт-Петербург',
@@ -90,9 +107,8 @@
     en: {
       title: 'Job history',
       info: {
-        title: 'Hi<span class="print:hidden"> 👋</span>, I\'m Adam!',
-        subtitle:
-          'Real name is Bogdan<span class="hidden print:inline"> Parfenov</span> <i class="text-xs">(He/him)</i>. I\'m a full-stack web developer, primarily focused on backend.',
+        title: "Hi, I'm Adam!",
+        subtitle: `Real name is Bogdan Parfenov (${age}). I'm a full-stack web developer, primarily focused on backend.`,
       },
       jobs: [
         {
@@ -123,6 +139,7 @@
             'Tornado',
             'MongoDB',
             'AWS S3',
+            'AWS Cognito',
             'AWS Gateway',
             'Docker',
             'Vue',
@@ -135,7 +152,16 @@
           title:
             'Python deverloper at <a href="https://4taps.me" rel="noopener noreferrer" class="text-blue-500 print:text-black">4taps</a>',
           desc: 'Developed and maintained partners Python web services',
-          skills: ['Python3.6', 'Django2', 'Django REST', 'MongoDB', 'PostgreSQL', 'Celery', 'Vue'],
+          skills: [
+            'Python3.6',
+            'Django2',
+            'Django REST',
+            'MongoDB',
+            'Firebase',
+            'PostgreSQL',
+            'Celery',
+            'Vue',
+          ],
         },
         {
           date: '2018-2019, Saint-Petersburg',

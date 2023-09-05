@@ -10,11 +10,18 @@
   import { locale } from '$lib/stores/locale';
   import { techs, type Stack } from './techs';
 
+  const today = new Date();
+  const bd = new Date('1999-03-05');
+  let age = today.getFullYear() - bd.getFullYear();
+  let m = today.getMonth() - bd.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < bd.getDate())) {
+    age--;
+  }
+
   $: _ = {
     ru: {
-      title: 'Привет<span class="print:hidden"> 👋</span>, Я Адам',
-      subtitle:
-        'Реальное имя - Богдан<span class="hidden print:inline"> Парфенов</span>. Я full-stack веб разработчик, в основном состредоточенный на бекенде.',
+      title: `Привет<span class="print:hidden"> 👋</span>, Я Адам!`,
+      subtitle: `Реальное имя - Богдан<span class="hidden print:inline"> Парфенов</span> (${age}). Я full-stack веб разработчик, в основном состредоточенный на бекенде.`,
       about: {
         title: 'Обо мне',
         points: [
@@ -36,7 +43,7 @@
           pending: '<span class="print:hidden">🙃 </span>Хотелось бы изучить',
           inactive: '<span class="print:hidden">😔 </span>Давно прошли те времена',
         } as Record<Stack, string>,
-        ps: '*Данный список не является исчерпывающим и ограничен значками, предоставляемыми пакетом simple-icons.',
+        ps: '*Данный список не является исчерпывающим и ограничен значками, предоставляемыми пакетом <a href="https://simpleicons.org/" target="_blank" rel="noopener noreferrer">simple-icons</a>.',
       },
       contacts: {
         title: 'Контакты',
@@ -49,9 +56,8 @@
       },
     } as const,
     en: {
-      title: 'Hi<span class="print:hidden"> 👋</span>, I\'m Adam!',
-      subtitle:
-        'Real name is Bogdan<span class="hidden print:inline"> Parfenov</span> <i class="text-xs">(He/him)</i>. I\'m a full-stack web developer, primarily focused on backend.',
+      title: `Hi<span class="print:hidden"> 👋</span>, I\'m Adam!`,
+      subtitle: `Real name is Bogdan<span class="hidden print:inline"> Parfenov</span> (${age}). I\'m a full-stack web developer, primarily focused on backend.`,
       about: {
         title: 'About me',
         points: [
@@ -65,7 +71,7 @@
       tech: {
         title: 'Technology<sup class="text-lg print:text-xs"> *</sup>',
         sorted: '<b>SORTED BY</b> <code class="code-inline">familiarity</code> <b>DESC</b>.',
-        ps: '*This list is not exhaustive and limited to the icons provided by simple-icons package.',
+        ps: '*This list is not exhaustive and limited to the icons provided by <a href="https://simpleicons.org/" target="_blank" rel="noopener noreferrer">simple-icons</a> package.',
         stacks: {
           active:
             '<span class="print:hidden">💡 </span>Technologies and environment that I use or had an experience with',
@@ -91,7 +97,7 @@
 <div
   class="relative isolate overflow-hidden px-4 py-8 odd:bg-zinc-100 dark:odd:bg-zinc-800 print:px-0 print:py-2">
   <div
-    class="my-8 flex flex-col-reverse items-center justify-center gap-4 print:m-0 print:block sm:my-16 sm:flex-row sm:gap-16">
+    class="mb-8 flex flex-col-reverse items-center justify-center gap-4 print:m-0 print:block sm:my-16 sm:flex-row sm:gap-16">
     <div class="max-w-sm print:max-w-none md:max-w-md lg:max-w-lg">
       <h1 class="text-4xl font-medium print:text-xl">{@html _.title}</h1>
       <p class="print:text-sm">{@html _.subtitle}</p>
@@ -115,17 +121,19 @@
   <div class="h-8 print:hidden sm:h-16 md:h-0" />
 </div>
 <div class="px-4 py-8 odd:bg-zinc-100 dark:odd:bg-zinc-800 print:px-0 print:py-2">
-  <h2 class="text-center text-4xl font-bold print:text-left print:text-xl print:font-medium">
+  <h2
+    class="text-center text-2xl font-bold print:text-left print:text-xl print:font-medium sm:text-4xl">
     {_.about.title}
   </h2>
-  <ul class="mx-auto mt-4 w-fit text-xl print:mx-0 print:mt-0 print:text-base">
+  <ul class="mx-auto mt-4 w-fit text-base print:mx-0 print:mt-0 print:text-base sm:text-xl">
     {#each _.about.points as point}
       <li class="w-fit print:before:mr-1 print:before:content-['-']">{@html point}</li>
     {/each}
   </ul>
 </div>
 <div class="px-4 py-8 odd:bg-zinc-100 dark:odd:bg-zinc-800 print:px-0 print:py-2">
-  <h2 class="text-center text-4xl font-bold print:text-left print:text-xl print:font-medium">
+  <h2
+    class="text-center text-2xl font-bold print:text-left print:text-xl print:font-medium sm:text-4xl">
     {@html _.tech.title}
   </h2>
   <p class="mt-2 text-center text-sm font-medium text-zinc-400 print:text-left print:text-xs">
@@ -139,7 +147,7 @@
     </h3>
     {#each stackTechs as stackTech}
       <div
-        class="m-4 mx-auto flex w-full max-w-full flex-wrap items-center justify-center gap-4 rounded-md p-2 odd:bg-zinc-200 even:bg-zinc-100 dark:odd:bg-zinc-700 dark:even:bg-zinc-800 print:m-0 print:mt-1 print:block print:p-0 print:text-sm md:max-w-screen-md">
+        class="m-4 mx-auto flex w-full max-w-full flex-wrap items-center justify-center gap-4 rounded-md p-2 odd:bg-zinc-200 even:bg-zinc-100 dark:odd:bg-zinc-700 dark:even:bg-zinc-600 print:m-0 print:mt-1 print:block print:p-0 print:text-sm md:max-w-screen-md">
         {#each stackTech as t, i}
           <img src={t.img} alt={t.name} class="print:hidden" />
           <span
@@ -151,10 +159,11 @@
   {/each}
 </div>
 <div class="px-4 py-8 odd:bg-zinc-100 dark:odd:bg-zinc-800 print:px-0 print:py-2">
-  <h2 class="text-center text-4xl font-bold print:text-left print:text-xl print:font-medium">
+  <h2
+    class="text-center text-2xl font-bold print:text-left print:text-xl print:font-medium sm:text-4xl">
     {@html _.contacts.title}
   </h2>
-  <ul class="mx-auto mt-4 w-fit text-xl print:mx-0 print:mt-0 print:text-base">
+  <ul class="mx-auto mt-4 w-fit text-base print:mx-0 print:mt-0 print:text-base sm:text-xl">
     {#each _.contacts.points as point}
       <li class="w-fit print:before:mr-1 print:before:content-['-']">{@html point}</li>
     {/each}
