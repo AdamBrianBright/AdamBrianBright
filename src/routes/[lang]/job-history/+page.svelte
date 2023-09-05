@@ -72,14 +72,14 @@
           ],
         },
         {
-          date: '2018-2019, Санкт-Петербург',
+          date: '2017-2018, Санкт-Петербург',
           title:
             'Служба в <a href="https://mil.ru/commemoration/memorial/90_batallion.htm" rel="noopener noreferrer" class="text-blue-500 print:text-black">90 ОСПБ</a>',
           desc: 'Участвовал в мероприятиях, направленных на поиск пропавших без вести солдат и их последующую идентификацию на основе медальонов, именных личных вещей и архивных документов',
           link: 'https://ru.wikipedia.org/wiki/Поисковое_движение',
         },
         {
-          date: '2016-2018, Тольятти',
+          date: '2016-2017, Тольятти',
           title: 'PHP разработчик, фриланс',
           desc: 'Разрабатывал сайты под различные системы на PHP, изучал JavaScript',
           skills: [
@@ -164,14 +164,14 @@
           ],
         },
         {
-          date: '2018-2019, Saint-Petersburg',
+          date: '2017-2018, Saint-Petersburg',
           title:
             'Served at <a href="https://mil.ru/commemoration/memorial/90_batallion.htm" rel="noopener noreferrer" class="text-blue-500 print:text-black">90 ОСПБ</a>',
           desc: 'Participated in events aimed at searching for missing soldiers and their subsequent identification based on coins, nominal personal items and archival documents.',
           link: 'https://ru.wikipedia.org/wiki/Поисковое_движение',
         },
         {
-          date: '2016-2018, Tolyatti',
+          date: '2016-2017, Tolyatti',
           title: 'PHP developer, freelance',
           desc: 'Developed websited for different PHP CMS, learned JavaScript',
           skills: [
