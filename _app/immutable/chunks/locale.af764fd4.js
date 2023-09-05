@@ -1,0 +1,1 @@
+import{e as f}from"./index.3a808bdd.js";import{d as l,w as u}from"./index.055f2269.js";const n=["ru","en"],t={ru:"/ru",en:"/en"},i=u(n[0]),m=l(i,r=>function(o,s){s===void 0&&(s=r);for(const c of n){const e=t[c];if(o.startsWith(e+"/")||o==e){o=o.slice(e.length);break}}return o=t[s]+o,o});function w(r){if(!n.includes(r))throw f(404);i.set(r)}export{i as a,m as l,w as s};
