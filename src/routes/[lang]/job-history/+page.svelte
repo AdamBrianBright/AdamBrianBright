@@ -13,7 +13,7 @@
       },
       jobs: [
         {
-          date: `с 2020, Тольятти`,
+          date: `с 2019, Тольятти`,
           title:
             'Full-stack разработчик в <a href="https://cifrazia.com" rel="noopener noreferrer" class="text-blue-500 print:text-black">Cifrazia</a>',
           desc: 'Разработал и поддерживаю облачные сервисы на Python, Node.js, Go; веб-сайт на Nuxt2, Svelte. Ответственен за системное администрирование бекенд серверов.',
@@ -96,7 +96,7 @@
       },
       jobs: [
         {
-          date: `Since 2020, Tolyatti`,
+          date: `Since 2019, Tolyatti`,
           title:
             'Full-stack developer at в <a href="https://cifrazia.com" rel="noopener noreferrer" class="text-blue-500 print:text-black">Cifrazia</a>',
           desc: 'Created and maintaining cloud services on Python, Node.js, Go; website on Nuxt2, Svelte. Responsible for system administration of a backend servers.',
