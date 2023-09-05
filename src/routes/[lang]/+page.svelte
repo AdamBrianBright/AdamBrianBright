@@ -8,6 +8,7 @@
   import gopher_meta from '$lib/images/gopher.png?as=metadata';
   import qr from '$lib/images/qr.png';
   import { locale } from '$lib/stores/locale';
+  import { helloWorld } from './hello-world';
   import { techs, type Stack } from './techs';
 
   const today = new Date();
@@ -117,8 +118,11 @@
         width={gopher_meta.width}
         height={gopher_meta.height}
         class="absolute bottom-0 left-1/2 w-16 translate-x-[-200px] translate-y-4 rotate-[16deg] transition group-focus-within:bottom-2 group-hover:bottom-2 sm:w-32 sm:translate-x-[-250px] md:translate-x-[-300px] md:translate-y-8 lg:translate-x-[-400px]" /></a>
+    <pre
+      class="hljs hljs-go w-128 absolute bottom-0 left-1/2 translate-x-[-100px] rounded-xl p-2 font-mono text-xs print:hidden sm:block sm:p-4 md:translate-x-[-100px] lg:translate-x-[-200px]"><code
+        >{@html helloWorld}</code></pre>
   </div>
-  <div class="h-8 print:hidden sm:h-16 md:h-0" />
+  <div class="h-16 print:hidden lg:h-0" />
 </div>
 <div class="px-4 py-8 odd:bg-zinc-100 dark:odd:bg-zinc-800 print:px-0 print:py-2">
   <h2
