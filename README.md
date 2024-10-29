@@ -16,7 +16,7 @@ Fullstack-developer с 10-летним стажем. Разрабатываю и
 ## Навыки
 
 - Go, Python, JavaScript (NodeJS)
-- PostgreSQL, MongoDB
+- Postgresql, MongoDB
 - Vue (Nuxt), Svelte (SvelteKit), TailwindCSS
 - RestAPI, gRPC, NATS.io, Minio
 - Docker, Linux, Git
@@ -32,14 +32,24 @@ Fullstack-developer с 10-летним стажем. Разрабатываю и
 
 ## Опыт работы
 
+### ELMA
+**Go разработчик** | Октябрь 2023 - по настоящее время (1 год)
+
+Разработка нового функционала, поддержка и оптимизация существующего, покрытие тестами внутренних облачных сервисов на Go.
+
+Go, MongoDB, Postgresql, Docker, K8s, gRPC, RabbitMQ
+
+_elma365.com_
+
 ### Cifrazia
-**Leading web developer** | Октябрь 2019 — по настоящее время (4 года)
+**Leading web developer** | Октябрь 2019 — по настоящее время (5 лет)
 
 Разработка и поддержка облачных сервисов на Python, Node.js, Go; веб-сайта на Nuxt2, Svelte. Ответственен за системное администрирование бекенд серверов.
 
-Go, Svelte, Python3.10, Typescript, Docker swarm, PostgreSQL, Minio, Django, Tornado, Nuxt2
+Go, Svelte, Python3.10, Typescript, Docker swarm, Postgresql, Minio, Django, Tornado, Nuxt2
 
 _cifrazia.com_
+
 ### Cherry Labs
 **Программист Python** | Апрель 2019 — март 2020
 
@@ -54,7 +64,7 @@ _cherryhome.ai_
 
 Разрабатывал и поддерживал веб-сервисы партнёров на Python
 
-Python3.6, Django2, Django REST, MongoDB, Firebase, PostgreSQL, Celery, Vue
+Python3.6, Django2, Django REST, MongoDB, Firebase, Postgresql, Celery, Vue
 
 _4taps.me_
 
