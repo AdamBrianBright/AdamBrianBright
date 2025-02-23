@@ -91,5 +91,3 @@ PHP5, Symfony, Joomla, Wordpress, jQuery, Bootstrap
 - Тел.:  [+7 (995) 599-27-15](tel:+79955992715)
 - Habr: https://career.habr.com/adambright
 - hh.ru: https://togliatti.hh.ru/resume/fe57c2d6ff060a440f0039ed1f726752623447
-
-[https://adambright.space](https://adambright.space/)
